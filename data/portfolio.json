@@ -3,7 +3,7 @@
     "siteTitle": "Olivia Yeo — Product Owner Portfolio",
     "description": "비즈니스와 사용자의 문제를 발견하고, 데이터와 시스템으로 해결하는 Product Owner 여연정의 포트폴리오입니다.",
     "keywords": "Product Owner, Business Analyst, Scrum Master, 서비스 기획자, PO, BA, 해운, 물류, SaaS, 여연정",
-    "author": "Yeonjeong Yeo",
+    "author": "Olivia Yeo",
     "themeColor": "#13315C",
     "ogImage": "assets/images/og-cover.png",
     "siteUrl": "https://example.github.io/portfolio/"
@@ -64,31 +64,31 @@
             "KPI 시각화 대시보드 구축 및 데이터 모니터링 체계 운영"
           ]
         },
-        { "name": "Adobe Analytics", "level": "", "details": [] },
-        { "name": "SQL", "level": "", "details": [] }
+        { "name": "Adobe Analytics", "level": "중", "details": ["데이터 분석 및 트래킹"] },
+        { "name": "SQL", "level": "중", "details": ["쿼리 작성 및 데이터 추출"] }
       ]
     },
     {
       "title": "Product & Delivery",
       "icon": "layers",
       "skills": [
-        { "name": "Jira", "level": "", "details": [] },
-        { "name": "Confluence", "level": "", "details": [] },
-        { "name": "Figma", "level": "", "details": [] },
-        { "name": "Visily", "level": "", "details": [] },
-        { "name": "Service Now", "level": "", "details": [] },
-        { "name": "프로젝트 관리", "level": "", "details": [] }
+        { "name": "Jira", "level": "상", "details": ["프로젝트 관리 및 이슈 트래킹"] },
+        { "name": "Confluence", "level": "상", "details": ["문서화 및 지식 공유"] },
+        { "name": "Figma", "level": "중", "details": ["와이어프레임 및 프로토타이핑"] },
+        { "name": "Visily", "level": "중", "details": ["화면 설계 및 UI 기획"] },
+        { "name": "Service Now", "level": "중", "details": ["IT 서비스 관리 및 운영"] },
+        { "name": "프로젝트 관리", "level": "상", "details": ["End-to-End 일정 및 리스크 관리"] }
       ]
     },
     {
       "title": "Business & Communication",
       "icon": "globe",
       "skills": [
-        { "name": "Microsoft Excel", "level": "", "details": [] },
-        { "name": "Microsoft PowerPoint", "level": "", "details": [] },
-        { "name": "Microsoft Word", "level": "", "details": [] },
-        { "name": "영어 회화", "level": "", "details": [] },
-        { "name": "영어 작문", "level": "", "details": [] }
+        { "name": "Microsoft Excel", "level": "상", "details": ["데이터 분석 및 시각화"] },
+        { "name": "Microsoft PowerPoint", "level": "상", "details": ["기획서 및 보고서 작성"] },
+        { "name": "Microsoft Word", "level": "상", "details": ["문서 작성 및 관리"] },
+        { "name": "영어 회화", "level": "상", "details": ["글로벌 커뮤니케이션"] },
+        { "name": "영어 작문", "level": "상", "details": ["비즈니스 이메일 및 문서 작성"] }
       ]
     }
   ],
@@ -122,7 +122,7 @@
 
   "career": [
     {
-      "company": "㈜싸이버로지텍",
+      "company": "Status",
       "companyEn": "CyberLogitec",
       "role": "Solution Consulting팀 · 수석 (Consultant)",
       "period": "2024.01 – 재직중",
@@ -261,7 +261,7 @@
       "school": "수원여자고등학교",
       "period": "2009.02 – 2012.02 졸업",
       "major": "문과계열",
-      "detail": ""
+      "detail": "일반 인문계"
     }
   ],
 
@@ -306,7 +306,7 @@
     { "id": "about", "label": "About", "icon": "user" },
     { "id": "skills", "label": "Skills", "icon": "layers" },
     { "id": "career", "label": "Career", "icon": "briefcase" },
-    { "id": "projects", "label": "Grid", "icon": "grid" },
+    { "id": "projects", "label": "Projects", "icon": "grid" },
     { "id": "contact", "label": "Contact", "icon": "mail" }
   ]
 }
