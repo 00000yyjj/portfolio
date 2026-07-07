@@ -140,7 +140,7 @@
     if (heroTagline) heroTagline.textContent = profile.tagline;
 
     const heroAvatar = document.getElementById("heroAvatar");
-    if (heroAvatar) heroAvatar.textContent = profile.initials;
+    if (heroAvatar && heroAvatar.tagName !== "IMG") heroAvatar.textContent = profile.initials;
 
     const factsHtml = quickFacts.map((f) => `
       <div class="fact-chip">
@@ -233,12 +233,17 @@
 
   /* ---------------- Working style ---------------- */
   function renderWorkingStyle(workingStyle) {
-    document.getElementById("styleHeading").textContent = workingStyle.heading;
-    document.getElementById("styleGrid").innerHTML = workingStyle.items.map((item, i) => `
+    const styleHeading = document.getElementById("styleHeading");
+    if (styleHeading) styleHeading.textContent = workingStyle.heading;
+
+    const styleGrid = document.getElementById("styleGrid");
+    if (styleGrid) {
+      styleGrid.innerHTML = workingStyle.items.map((item, i) => `
       <div class="card card--hover style-card reveal" style="--reveal-delay:${i * 70}ms">
         <div class="style-card__title">${escapeHtml(item.title)}</div>
         <p>${escapeHtml(item.desc)}</p>
       </div>`).join("");
+    }
   }
 
   /* ---------------- Career ---------------- */

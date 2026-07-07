@@ -379,6 +379,7 @@
   width: clamp(150px, 17vw, 210px);
   height: clamp(150px, 17vw, 210px);
   border-radius: 50%;
+  object-fit: cover;
   background: transparent;
   display: grid;
   place-items: center;

@@ -5,14 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>여연정 · Data-driven Product Owner Portfolio</title>
 
-<!-- ============ SEO ============ -->
 <meta name="description" content="글로벌 해운·물류 SaaS 플랫폼의 요율(Pricing) 및 계약 관리 시스템을 담당하는 Product Owner / Business Analyst 여연정의 포트폴리오입니다." />
-<meta name="keywords" content="Product Owner, Business Analyst, Scrum Master, 서비스 기획자, PO, BA, 해운, 물류, SaaS, 여연정, Yeonjeong Yeo" />
-<meta name="author" content="Yeonjeong Yeo" />
+<meta name="keywords" content="Product Owner, Business Analyst, Scrum Master, 서비스 기획자, PO, BA, 해운, 물류, SaaS, 여연정, Olivia Yeo" />
+<meta name="author" content="Olivia Yeo" />
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="https://example.github.io/portfolio/" />
 
-<!-- ============ Open Graph / Social ============ -->
 <meta property="og:type" content="website" />
 <meta property="og:title" content="여연정 · Data-driven Product Owner Portfolio" />
 <meta property="og:description" content="데이터로 문제를 정의하고, 시스템으로 해결합니다 — Product Owner / Business Analyst 여연정." />
@@ -21,17 +19,14 @@
 <meta property="og:locale" content="ko_KR" />
 <meta name="twitter:card" content="summary_large_image" />
 
-<!-- ============ Theme / Icons ============ -->
 <meta name="theme-color" content="#13315c" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 <link rel="apple-touch-icon" href="favicon.svg" />
 
-<!-- ============ Fonts ============ -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 
-<!-- ============ Styles ============ -->
 <link rel="stylesheet" href="css/variables.css" />
 <link rel="stylesheet" href="css/base.css" />
 <link rel="stylesheet" href="css/components.css" />
@@ -39,7 +34,6 @@
 <link rel="stylesheet" href="css/responsive.css" />
 <link rel="stylesheet" href="css/dark-mode.css" />
 
-<!-- theme applied before paint to avoid flash -->
 <script>
   (function () {
     try {
@@ -49,20 +43,33 @@
     } catch (e) {}
   })();
 </script>
+
+<style>
+  .section-lead {
+    max-width: none !important;        /* 1. 템플릿 고유의 좁은 가로폭 제한을 완전히 해제 */
+    white-space: nowrap !important;    /* 2. 단어 줄바꿈을 절대 하지 않고 우측으로 한 줄 나열 */
+  }
+
+  /* 💡 데스크탑에서는 시원하게 한 줄로 보되, 화면이 아주 좁은 모바일에서는 화면 밖으로 글자가 깨져나가지 않도록 자동 방어 체계 구축 */
+  @media (max-width: 768px) {
+    .section-lead {
+      white-space: normal !important;
+      word-break: keep-all !important;
+    }
+  }
+</style>
 </head>
 
 <body>
 <a class="skip-link" href="#main">본문으로 바로가기</a>
 
-<!-- ============================================================ NAVBAR -->
 <header class="navbar" id="navbar">
   <a class="navbar__brand" href="#hero" aria-label="홈으로 이동">
     <span class="navbar__brand-mark" aria-hidden="true">YY</span>
   </a>
 
   <nav class="navbar__links" id="navLinks" aria-label="주요 섹션 이동">
-    <!-- injected by JS: icon-only links -->
-  </nav>
+    </nav>
 
   <div class="navbar__actions">
     <button class="icon-btn theme-toggle" id="themeToggle" type="button" aria-label="다크 모드 전환">
@@ -76,18 +83,14 @@
   </div>
 </header>
 
-<!-- ============================================================ MOBILE DRAWER -->
 <div class="mobile-drawer" id="mobileDrawer">
   <div class="mobile-drawer__overlay" data-close-drawer></div>
   <nav class="mobile-drawer__panel" id="mobileDrawerLinks" aria-label="모바일 메뉴">
-    <!-- injected by JS -->
-  </nav>
+    </nav>
 </div>
 
-<!-- ============================================================ MAIN -->
 <main id="main">
 
-  <!-- ============ HERO ============ -->
   <section class="hero" id="hero">
     <div class="container">
       <div class="hero-shell card reveal-scale">
@@ -124,70 +127,11 @@
             </div>
 
             <div class="hero__facts reveal" id="heroFacts" style="--reveal-delay:280ms">
-              <!-- injected by JS (quickFacts) -->
-            </div>
+              </div>
           </div>
 
           <div class="hero__avatar-wrap">
-            <svg class="hero-avatar-lg" id="heroAvatar" viewBox="0 0 240 280" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <!-- 피부 그라데이션 (3D 입체감) -->
-                <radialGradient id="skinGrad" cx="35%" cy="35%">
-                  <stop offset="0%" style="stop-color:#fae8d9;stop-opacity:1" />
-                  <stop offset="70%" style="stop-color:#f5d5c8;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#e8c4b8;stop-opacity:1" />
-                </radialGradient>
-                <!-- 머리 그라데이션 -->
-                <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" style="stop-color:#3d2817;stop-opacity:1" />
-                  <stop offset="50%" style="stop-color:#2d1f1a;stop-opacity:1" />
-                  <stop offset="100%" style="stop-color:#1a1010;stop-opacity:1" />
-                </linearGradient>
-              </defs>
-
-              <!-- 배경 원 (구조 강화용) -->
-              <circle cx="120" cy="120" r="110" fill="rgba(0,0,0,0.02)" />
-
-              <!-- 머리 뒷부분 -->
-              <ellipse cx="120" cy="95" rx="75" ry="85" fill="url(#hairGrad)" />
-
-              <!-- 얼굴 -->
-              <ellipse cx="120" cy="125" rx="68" ry="85" fill="url(#skinGrad)" />
-
-              <!-- 얼굴 음영 (좌측) -->
-              <ellipse cx="65" cy="140" rx="22" ry="50" fill="#d4a896" opacity="0.15" />
-
-              <!-- 긴 머리 왼쪽 -->
-              <path d="M 52 105 Q 40 140 38 180 Q 37 210 42 240 L 55 235 Q 53 210 54 175 Q 56 140 65 110 Z" fill="url(#hairGrad)" />
-
-              <!-- 긴 머리 오른쪽 -->
-              <path d="M 188 105 Q 200 140 202 180 Q 203 210 198 240 L 185 235 Q 187 210 186 175 Q 184 140 175 110 Z" fill="url(#hairGrad)" />
-
-              <!-- 왼쪽 눈 -->
-              <ellipse cx="92" cy="108" rx="7" ry="8" fill="white" />
-              <ellipse cx="92" cy="110" rx="5" ry="5.5" fill="#3d2817" />
-              <circle cx="93" cy="108" r="2" fill="white" opacity="0.8" />
-
-              <!-- 오른쪽 눈 -->
-              <ellipse cx="148" cy="108" rx="7" ry="8" fill="white" />
-              <ellipse cx="148" cy="110" rx="5" ry="5.5" fill="#3d2817" />
-              <circle cx="149" cy="108" r="2" fill="white" opacity="0.8" />
-
-              <!-- 코 -->
-              <line x1="120" y1="118" x2="120" y2="138" stroke="#d9a897" stroke-width="1.5" stroke-linecap="round" />
-              <ellipse cx="115" cy="142" rx="3.5" ry="4" fill="#d9a897" />
-              <ellipse cx="125" cy="142" rx="3.5" ry="4" fill="#d9a897" />
-
-              <!-- 입 -->
-              <path d="M 105 155 Q 120 167 135 155" stroke="#d4947b" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
-
-              <!-- 뺨 홍조 -->
-              <ellipse cx="75" cy="135" rx="12" ry="8" fill="#f5a89d" opacity="0.35" />
-              <ellipse cx="165" cy="135" rx="12" ry="8" fill="#f5a89d" opacity="0.35" />
-
-              <!-- 이마 하이라이트 -->
-              <ellipse cx="120" cy="75" rx="50" ry="20" fill="white" opacity="0.08" />
-            </svg>
+            <img class="hero-avatar-lg" id="heroAvatar" src="assets/images/AVATAR.png" alt="여연정 프로필 사진" />
           </div>
         </div>
       </div>
@@ -199,7 +143,6 @@
     </div>
   </section>
 
-  <!-- ============ ABOUT ============ -->
   <section class="section" id="about">
     <div class="container about">
       <div class="about__text reveal">
@@ -207,66 +150,68 @@
           <span class="eyebrow">About</span>
           <h2 id="aboutHeading">요율과 계약이 오가는 시스템을, 사용자의 언어로 설계합니다</h2>
         </div>
-        <div id="aboutParagraphs"><!-- injected by JS --></div>
+        <div id="aboutParagraphs"></div>
       </div>
-      <div class="about__facts" id="aboutFacts"><!-- injected by JS --></div>
+      <div class="about__facts" id="aboutFacts"></div>
     </div>
   </section>
 
-  <!-- ============ SKILLS ============ -->
   <section class="section" id="skills">
     <div class="container">
       <div class="shell-card card reveal">
         <div class="shell-card__head">
           <span class="eyebrow">Skills</span>
           <h2>실무에서 바로 쓰는 도구들</h2>
-          <p class="section-lead">데이터 분석부터 제품 기획, 릴리스 운영까지 — 영역별로 익숙하게 다루는 툴입니다.</p>
+          <p class="section-lead">
+            데이터 분석부터 제품 기획, 릴리스 운영까지 서비스 전 과정에서 활용해온 도구와 역량입니다.
+          </p>
         </div>
-        <div class="shell-panel" id="skillsGrid"><!-- injected by JS --></div>
+        <div class="shell-panel" id="skillsGrid"></div>
       </div>
     </div>
   </section>
 
-  <!-- ============ WORKING STYLE ============ -->
   <section class="section" id="working-style">
     <div class="container">
       <div class="section-head reveal">
         <span class="eyebrow">Working Style</span>
-        <h2 id="styleHeading">협업할 때 이런 방식으로 일합니다</h2>
+        <h2>문제를 정의하고 해결합니다</h2>
+        <p class="section-lead">
+          비즈니스와 사용자의 문제를 정의하고, 다양한 직군과 협업해 실행 가능한 솔루션으로 구체화합니다.
+        </p>
       </div>
-      <div class="style-grid" id="styleGrid"><!-- injected by JS --></div>
+      <div class="style-grid" id="styleGrid"></div>
     </div>
   </section>
 
-  <!-- ============ CAREER ============ -->
   <section class="section" id="career">
     <div class="container">
       <div class="shell-card card reveal">
         <div class="shell-card__head">
           <span class="eyebrow">Career</span>
           <h2>총 경력 6년 1개월</h2>
-          <p class="section-lead">데이터 분석 컨설팅으로 시작해, 지금은 글로벌 물류 플랫폼의 시스템을 기획하고 있습니다.</p>
+          <p class="section-lead">
+            데이터 분석 컨설팅으로 시작해, 지금은 글로벌 물류 플랫폼의 시스템을 운영 및 기획하고 있습니다.
+          </p>
         </div>
-        <div class="shell-panel" id="careerTimeline"><!-- injected by JS --></div>
+        <div class="shell-panel" id="careerTimeline"></div>
       </div>
     </div>
   </section>
 
-  <!-- ============ PROJECTS ============ -->
   <section class="section" id="projects">
     <div class="container">
       <div class="shell-card card reveal">
         <div class="shell-card__head">
           <span class="eyebrow">Projects</span>
           <h2>Selected Projects</h2>
-          <p class="section-lead">CJ, LG, 현대백화점, 삼성전자 등 다양한 산업의 데이터 분석·구축 프로젝트입니다.</p>
+          <p class="section-lead">CJ, LG, 현대백화점, 삼성전자 등 다양한 산업의 데이터 분석·구축 프로젝트를 수행하며 비즈니스 문제 해결 경험을 쌓았습니다.</p>
         </div>
-        <div class="shell-panel" id="projectsGrid"><!-- injected by JS --></div>
+        <div class="shell-panel" id="projectsGrid"></div>
       </div>
     </div>
   </section>
 
-  <!-- ============ EDUCATION ============ -->
   <section class="section" id="education">
     <div class="container">
       <div class="shell-card card reveal">
@@ -274,12 +219,11 @@
           <span class="eyebrow">Education</span>
           <h2>학력</h2>
         </div>
-        <div class="shell-panel" id="educationGrid"><!-- injected by JS --></div>
+        <div class="shell-panel" id="educationGrid"></div>
       </div>
     </div>
   </section>
 
-  <!-- ============ CERTIFICATIONS ============ -->
   <section class="section" id="certifications">
     <div class="container">
       <div class="shell-card card reveal">
@@ -287,12 +231,11 @@
           <span class="eyebrow">Certifications</span>
           <h2>자격 및 어학</h2>
         </div>
-        <div class="shell-panel" id="certGrid"><!-- injected by JS --></div>
+        <div class="shell-panel" id="certGrid"></div>
       </div>
     </div>
   </section>
 
-  <!-- ============ ACTIVITIES ============ -->
   <section class="section" id="activities">
     <div class="container">
       <div class="shell-card card reveal">
@@ -300,39 +243,38 @@
           <span class="eyebrow">Global Experience &amp; Activities</span>
           <h2>경험 · 활동 · 교육</h2>
         </div>
-        <div class="shell-panel" id="activityList"><!-- injected by JS --></div>
+        <div class="shell-panel" id="activityList"></div>
       </div>
     </div>
   </section>
 
-  <!-- ============ CONTACT ============ -->
   <section class="section" id="contact">
     <div class="container">
       <div class="contact-card card reveal">
         <span class="eyebrow" style="color:#ffab6b;">Contact</span>
         <h2>Let's build better products together.</h2>
-        <p>제품 기획, 시스템 설계, 데이터 기반 문제 해결 경험을 바탕으로 새로운 가치를 만들어갈 기회를 찾고 있습니다.</p>
-
-        <div class="contact-info" id="contactInfo"><!-- injected by JS: email / phone rows --></div>
+        
+        <p style="line-height: 1.6; margin-top: 16px; margin-bottom: 36px;">
+          제품 기획, 시스템 설계, 데이터 기반 문제 해결 경험을 바탕으로<br>
+          새로운 가치를 만들어갈 기회를 찾고 있습니다.
+        </p>
+  
+        <div class="contact-info" id="contactInfo"></div>
       </div>
     </div>
   </section>
 </main>
 
-<!-- ============================================================ FOOTER -->
 <footer class="site-footer">
   <div class="container">
-    <p class="footer-brand mono">여연정 · Yeonjeong Yeo</p>
-    <p>© <span id="year"></span> Yeonjeong Yeo. Built with HTML, CSS &amp; JavaScript.</p>
+    <p class="footer-brand mono">여연정 · Olivia Yeo</p>
+    <p>© <span id="year"></span> Olivia Yeo. Built with HTML, CSS &amp; JavaScript.</p>
   </div>
 </footer>
 
-<!-- ============================================================ MOBILE TAB BAR -->
 <nav class="tabbar" id="tabbar" aria-label="모바일 하단 내비게이션">
-  <!-- injected by JS -->
-</nav>
+  </nav>
 
-<!-- ============================================================ SCRIPTS -->
 <script src="js/data-loader.js"></script>
 <script src="js/renderer.js"></script>
 <script src="js/theme.js"></script>
@@ -340,4 +282,3 @@
 <script src="js/animations.js"></script>
 <script src="js/main.js"></script>
 </body>
-</html>
