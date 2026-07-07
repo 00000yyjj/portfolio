@@ -127,18 +127,28 @@
 
   /* ---------------- Hero ---------------- */
   function renderHero(profile, quickFacts) {
-    document.getElementById("heroStatusText").textContent = profile.status;
-    document.getElementById("heroRole").textContent = profile.role;
-    document.getElementById("heroRoleSub").textContent = profile.roleSub;
-    document.getElementById("heroTagline").textContent = profile.tagline;
-    document.getElementById("heroAvatar").textContent = profile.initials;
+    const heroStatusText = document.getElementById("heroStatusText");
+    if (heroStatusText) heroStatusText.textContent = profile.status;
+
+    const heroRole = document.getElementById("heroRole");
+    if (heroRole) heroRole.textContent = profile.role;
+
+    const heroRoleSub = document.getElementById("heroRoleSub");
+    if (heroRoleSub) heroRoleSub.textContent = profile.roleSub;
+
+    const heroTagline = document.getElementById("heroTagline");
+    if (heroTagline) heroTagline.textContent = profile.tagline;
+
+    const heroAvatar = document.getElementById("heroAvatar");
+    if (heroAvatar) heroAvatar.textContent = profile.initials;
 
     const factsHtml = quickFacts.map((f) => `
       <div class="fact-chip">
         <div class="fact-chip__label">${escapeHtml(f.label)}</div>
         <div class="fact-chip__value">${escapeHtml(f.value)}</div>
       </div>`).join("");
-    document.getElementById("heroFacts").innerHTML = factsHtml;
+    const heroFacts = document.getElementById("heroFacts");
+    if (heroFacts) heroFacts.innerHTML = factsHtml;
 
     wireCopyEmail(profile.email);
   }

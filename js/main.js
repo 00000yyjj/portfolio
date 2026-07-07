@@ -27,6 +27,7 @@
       PortfolioNav.init(navIds);
       PortfolioAnimations.init();
     } catch (err) {
+      console.error(err);
       // Data failed to load (e.g. opened via file:// without a local server).
       const main = document.getElementById("main");
       if (main) {
