@@ -1,0 +1,132 @@
+/* ============================================================
+   DESIGN TOKENS
+   Palette grounded in the subject: ocean-shipping / logistics SaaS.
+   Ink navy = the deep sea / systems. Amber = tracked cargo / signal.
+   Teal = harbor water, used for secondary accents.
+   ============================================================ */
+
+:root {
+  /* ---- Brand palette ---- */
+  --ink-950: #0a1526;
+  --ink-900: #0e1b2c;
+  --ink-800: #13253c;
+  --navy-700: #17335c;
+  --navy-600: #1f4272;
+  --navy-500: #2c5c96;
+  --teal-600: #17847f;
+  --teal-500: #1fa39c;
+  --plum-600: #5b4b9e;
+  --plum-500: #7566bd;
+  --amber-600: #e67420;
+  --amber-500: #ff8a3d;
+  --amber-400: #ffab6b;
+
+  /* ---- Neutrals ---- */
+  --neutral-0: #ffffff;
+  --neutral-50: #f6f8fb;
+  --neutral-100: #eef1f6;
+  --neutral-200: #e2e7ee;
+  --neutral-300: #cbd3de;
+  --neutral-400: #9aa6b6;
+  --neutral-500: #6b7789;
+  --neutral-600: #4d5a6d;
+  --neutral-700: #333f52;
+
+  /* ---- Semantic (light theme default) ---- */
+  --bg: var(--neutral-100);
+  --bg-elevated: #ffffff;
+  --surface: #ffffff;
+  --surface-muted: var(--neutral-100);
+  --border: var(--neutral-200);
+  --border-soft: rgba(19, 37, 60, 0.08);
+
+  --text-primary: var(--ink-900);
+  --text-secondary: var(--neutral-600);
+  --text-muted: var(--neutral-500);
+  --text-on-accent: #ffffff;
+
+  --accent: var(--amber-500);
+  --accent-strong: var(--amber-600);
+  --accent-soft: rgba(255, 138, 61, 0.14);
+  --brand: var(--navy-700);
+  --brand-strong: var(--ink-900);
+  --brand-soft: rgba(23, 51, 92, 0.08);
+  --teal: var(--teal-600);
+  --teal-soft: rgba(23, 132, 127, 0.12);
+
+  --shadow-color: 220 45% 20%;
+  --shadow-sm: 0 1px 2px hsl(var(--shadow-color) / 0.06), 0 1px 1px hsl(var(--shadow-color) / 0.04);
+  --shadow-md: 0 8px 24px -8px hsl(var(--shadow-color) / 0.16), 0 2px 8px -2px hsl(var(--shadow-color) / 0.08);
+  --shadow-lg: 0 24px 48px -16px hsl(var(--shadow-color) / 0.22), 0 8px 20px -8px hsl(var(--shadow-color) / 0.12);
+  --shadow-glow: 0 0 0 1px rgba(255, 138, 61, 0.25), 0 8px 24px -6px rgba(255, 138, 61, 0.35);
+
+  --glass-bg: rgba(255, 255, 255, 0.68);
+  --glass-border: rgba(255, 255, 255, 0.5);
+
+  /* ---- Type ---- */
+  --font-display: "Space Grotesk", "Pretendard Variable", "Apple SD Gothic Neo", sans-serif;
+  --font-body: "Inter", "Pretendard Variable", "Apple SD Gothic Neo", sans-serif;
+  --font-mono: "IBM Plex Mono", "Roboto Mono", monospace;
+
+  /* ---- Radii ---- */
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 24px;
+  --r-xl: 32px;
+  --r-pill: 999px;
+
+  /* ---- Spacing scale ---- */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+  --sp-9: 96px;
+
+  /* ---- Layout ---- */
+  --container-w: 1160px;
+  --nav-h: 76px;
+  --tabbar-h: 72px;
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 180ms;
+  --dur-mid: 360ms;
+  --dur-slow: 640ms;
+}
+
+/* ---- Dark theme overrides ---- */
+[data-theme="dark"] {
+  --bg: var(--ink-950);
+  --bg-elevated: #0f1c2f;
+  --surface: #101f34;
+  --surface-muted: #0d1a2c;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-soft: rgba(255, 255, 255, 0.06);
+
+  --text-primary: #eef2f8;
+  --text-secondary: #aab6c8;
+  --text-muted: #7d8ba0;
+  --text-on-accent: #101018;
+
+  --accent: var(--amber-500);
+  --accent-strong: var(--amber-400);
+  --accent-soft: rgba(255, 138, 61, 0.16);
+  --brand: #6f9bd8;
+  --brand-strong: #ffffff;
+  --brand-soft: rgba(111, 155, 216, 0.12);
+  --teal: var(--teal-500);
+  --teal-soft: rgba(31, 163, 156, 0.16);
+
+  --shadow-color: 220 60% 3%;
+  --shadow-sm: 0 1px 2px hsl(var(--shadow-color) / 0.4);
+  --shadow-md: 0 8px 24px -8px hsl(var(--shadow-color) / 0.55), 0 2px 8px -2px hsl(var(--shadow-color) / 0.3);
+  --shadow-lg: 0 24px 48px -16px hsl(var(--shadow-color) / 0.65), 0 8px 20px -8px hsl(var(--shadow-color) / 0.35);
+  --shadow-glow: 0 0 0 1px rgba(255, 138, 61, 0.3), 0 8px 28px -4px rgba(255, 138, 61, 0.28);
+
+  --glass-bg: rgba(15, 28, 47, 0.66);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}

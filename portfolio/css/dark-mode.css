@@ -1,0 +1,45 @@
+/* ============================================================
+   DARK MODE — fine tuning beyond token swap
+   ============================================================ */
+
+/* Most colors already flip automatically via CSS custom properties
+   (see the [data-theme="dark"] block in variables.css). The rules
+   below are the handful of cases that need more than a var swap. */
+
+[data-theme="dark"] .hero-shell__deco-grid {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.14) 1.6px, transparent 1.6px);
+}
+
+[data-theme="dark"] .navbar {
+  box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme="dark"] .card {
+  border-color: var(--border);
+}
+
+[data-theme="dark"] .list-row {
+  border: 1px solid var(--border);
+}
+
+[data-theme="dark"] .chip {
+  background: rgba(111, 155, 216, 0.14);
+  color: #a9c3ea;
+}
+
+[data-theme="dark"] .contact-card {
+  background: linear-gradient(160deg, #060c17, #101f34);
+}
+
+[data-theme="dark"] ::selection {
+  background: var(--accent);
+  color: #171018;
+}
+
+/* theme toggle rotation cue */
+.theme-toggle svg {
+  transition: transform var(--dur-mid) var(--ease-out);
+}
+.theme-toggle:hover svg {
+  transform: rotate(18deg);
+}
