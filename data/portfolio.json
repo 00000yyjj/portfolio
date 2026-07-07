@@ -3,7 +3,7 @@
     "siteTitle": "Yeonjeong Yeo — Product Owner Portfolio",
     "description": "비즈니스와 사용자의 문제를 발견하고, 데이터와 시스템으로 해결하는 Product Owner 여연정의 포트폴리오입니다.",
     "keywords": "Product Owner, Business Analyst, Scrum Master, 서비스 기획자, PO, BA, 해운, 물류, SaaS, 여연정",
-    "author": "Yeonjeong Yeo",
+    "author": "Olivia Yeo",
     "themeColor": "#13315C",
     "ogImage": "assets/images/og-cover.png",
     "siteUrl": "https://example.github.io/portfolio/"
@@ -122,7 +122,7 @@
 
   "career": [
     {
-      "company": "㈜싸이버로지텍",
+      "company": "Status",
       "companyEn": "CyberLogitec",
       "role": "Solution Consulting팀 · 수석 (Consultant)",
       "period": "2024.01 – 재직중",
