@@ -64,19 +64,19 @@
             "KPI 시각화 대시보드 구축 및 데이터 모니터링 체계 운영"
           ]
         },
-        { "name": "Adobe Analytics", "level": "중", "details": ["데이터 분석 및 트래킹"] },
-        { "name": "SQL", "level": "중", "details": ["쿼리 작성 및 데이터 추출"] }
+        { "name": "Adobe Analytics", "level": "중", "details": ["데이터 분석 및 트래킹 체계 운영"] },
+        { "name": "SQL", "level": "중", "details": ["데이터 추출 및 쿼리 작성"] }
       ]
     },
     {
       "title": "Product & Delivery",
       "icon": "layers",
       "skills": [
-        { "name": "Jira", "level": "상", "details": ["프로젝트 관리 및 이슈 트래킹"] },
-        { "name": "Confluence", "level": "상", "details": ["문서화 및 지식 공유"] },
-        { "name": "Figma", "level": "중", "details": ["와이어프레임 및 프로토타이핑"] },
-        { "name": "Visily", "level": "중", "details": ["화면 설계 및 UI 기획"] },
-        { "name": "Service Now", "level": "중", "details": ["IT 서비스 관리 및 운영"] },
+        { "name": "Jira", "level": "상", "details": ["User Story 정의 및 스프린트 관리"] },
+        { "name": "Confluence", "level": "상", "details": ["요구사항 정의서 및 가이드 문서화"] },
+        { "name": "Figma", "level": "중", "details": ["와이어프레임 프로토타이핑 수립"] },
+        { "name": "Visily", "level": "중", "details": ["화면 설계 및 UI 구조 시각화"] },
+        { "name": "Service Now", "level": "중", "details": ["IT 서비스 및 이슈 트래킹 관리"] },
         { "name": "프로젝트 관리", "level": "상", "details": ["End-to-End 일정 및 리스크 관리"] }
       ]
     },
@@ -84,11 +84,11 @@
       "title": "Business & Communication",
       "icon": "globe",
       "skills": [
-        { "name": "Microsoft Excel", "level": "상", "details": ["데이터 분석 및 시각화"] },
-        { "name": "Microsoft PowerPoint", "level": "상", "details": ["기획서 및 보고서 작성"] },
-        { "name": "Microsoft Word", "level": "상", "details": ["문서 작성 및 관리"] },
-        { "name": "영어 회화", "level": "상", "details": ["글로벌 커뮤니케이션"] },
-        { "name": "영어 작문", "level": "상", "details": ["비즈니스 이메일 및 문서 작성"] }
+        { "name": "Microsoft Excel", "level": "상", "details": ["데이터 분석 및 보고 장표 작성"] },
+        { "name": "Microsoft PowerPoint", "level": "상", "details": ["비즈니스 제안서 및 기획서 작성"] },
+        { "name": "Microsoft Word", "level": "상", "details": ["공식 문서 및 계약 요율 서식 관리"] },
+        { "name": "영어 회화", "level": "상", "details": ["해외 고객사 기술 커뮤니케이션"] },
+        { "name": "영어 작문", "level": "상", "details": ["비즈니스 이메일 및 글로벌 통신"] }
       ]
     }
   ],
