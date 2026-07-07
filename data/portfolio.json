@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteTitle": "Yeonjeong Yeo — Product Owner Portfolio",
-    "description": "글로벌 해운·물류 SaaS 플랫폼의 요율/계약 관리 시스템을 담당하는 Product Owner 여연정의 포트폴리오입니다.",
+    "description": "비즈니스와 사용자의 문제를 발견하고, 데이터와 시스템으로 해결하는 Product Owner 여연정의 포트폴리오입니다.",
     "keywords": "Product Owner, Business Analyst, Scrum Master, 서비스 기획자, PO, BA, 해운, 물류, SaaS, 여연정",
     "author": "Yeonjeong Yeo",
     "themeColor": "#13315C",
@@ -11,11 +11,11 @@
 
   "profile": {
     "nameKo": "여연정",
-    "nameEn": "Yeonjeong Yeo",
+    "nameEn": "Olivia Yeo",
     "initials": "YY",
     "role": "Data-driven Product Owner",
-    "roleSub": "Scrum Master for Global Digital Platform",
-    "tagline": "데이터로 문제를 정의하고, 시스템으로 해결합니다.",
+    "roleSub": "Product Owner for Global Digital Platform",
+    "tagline": "데이터로 본질을 발견하고, 시스템으로 가치를 만듭니다.",
     "status": "OPEN TO WORK",
     "location": "Seoul, South Korea",
     "email": "yuo1218@naver.com",
@@ -64,31 +64,31 @@
             "KPI 시각화 대시보드 구축 및 데이터 모니터링 체계 운영"
           ]
         },
-        { "name": "Adobe Analytics", "level": null, "details": [] },
-        { "name": "SQL", "level": null, "details": [] }
+        { "name": "Adobe Analytics", "level": "", "details": [] },
+        { "name": "SQL", "level": "", "details": [] }
       ]
     },
     {
       "title": "Product & Delivery",
       "icon": "layers",
       "skills": [
-        { "name": "Jira", "level": null, "details": [] },
-        { "name": "Confluence", "level": null, "details": [] },
-        { "name": "Figma", "level": null, "details": [] },
-        { "name": "Visily", "level": null, "details": [] },
-        { "name": "Service Now", "level": null, "details": [] },
-        { "name": "프로젝트 관리", "level": null, "details": [] }
+        { "name": "Jira", "level": "", "details": [] },
+        { "name": "Confluence", "level": "", "details": [] },
+        { "name": "Figma", "level": "", "details": [] },
+        { "name": "Visily", "level": "", "details": [] },
+        { "name": "Service Now", "level": "", "details": [] },
+        { "name": "프로젝트 관리", "level": "", "details": [] }
       ]
     },
     {
       "title": "Business & Communication",
       "icon": "globe",
       "skills": [
-        { "name": "Microsoft Excel", "level": null, "details": [] },
-        { "name": "Microsoft PowerPoint", "level": null, "details": [] },
-        { "name": "Microsoft Word", "level": null, "details": [] },
-        { "name": "영어 회화", "level": null, "details": [] },
-        { "name": "영어 작문", "level": null, "details": [] }
+        { "name": "Microsoft Excel", "level": "", "details": [] },
+        { "name": "Microsoft PowerPoint", "level": "", "details": [] },
+        { "name": "Microsoft Word", "level": "", "details": [] },
+        { "name": "영어 회화", "level": "", "details": [] },
+        { "name": "영어 작문", "level": "", "details": [] }
       ]
     }
   ],
@@ -306,7 +306,7 @@
     { "id": "about", "label": "About", "icon": "user" },
     { "id": "skills", "label": "Skills", "icon": "layers" },
     { "id": "career", "label": "Career", "icon": "briefcase" },
-    { "id": "projects", "label": "Projects", "icon": "grid" },
+    { "id": "projects", "label": "Grid", "icon": "grid" },
     { "id": "contact", "label": "Contact", "icon": "mail" }
   ]
 }
